@@ -1,0 +1,4 @@
+com\epam\framework\testCase\Hardcore.class
+com\epam\framework\utils\TestDataReader.class
+com\epam\framework\testCase\HurtMePlenty.class
+com\epam\framework\browserSetUp\BrowserSetUp.class
