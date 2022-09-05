@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.framework.testCase.Hardcore
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.179 s - in com.epam.framework.testCase.Hardcore
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 94.292 s - in com.epam.framework.testCase.Hardcore

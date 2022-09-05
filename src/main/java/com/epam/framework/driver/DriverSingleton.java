@@ -13,21 +13,21 @@ public class DriverSingleton {
             Configuration.browser = "edge";
             Configuration.driverManagerEnabled = true;
             Configuration.browserSize = "1920x1080";
-            Configuration.headless = true;
+            Configuration.headless = false;
 
         } else if(Objects.equals(System.getProperty("browser"), "firefox") || browser.equals("firefox")){
             WebDriverManager.firefoxdriver().setup();
             Configuration.browser = "firefox";
             Configuration.driverManagerEnabled = true;
             Configuration.browserSize = "1920x1080";
-            Configuration.headless = true;
+            Configuration.headless = false;
 
         } else if (Objects.equals(System.getProperty("browser"), "chrome") || browser.equals("chrome")) {
             WebDriverManager.chromedriver().setup();
             Configuration.browser = "chrome";
             Configuration.driverManagerEnabled = true;
             Configuration.browserSize = "1920x1080";
-            Configuration.headless = true;
+            Configuration.headless = false;
         }
     }
 

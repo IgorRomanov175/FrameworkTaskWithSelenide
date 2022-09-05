@@ -7,14 +7,9 @@ import com.epam.framework.pages.GoogleCloudsPages.GoogleCloudHomePage;
 import com.epam.framework.pages.GoogleCloudsPages.GoogleCloudSearchPage;
 import com.epam.framework.pages.YopmailPage.YopmailPage;
 import com.epam.framework.utils.TestDataReader;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
-
-import static com.codeborne.selenide.Selenide.$x;
 
 public class BrowserSetUp {
 

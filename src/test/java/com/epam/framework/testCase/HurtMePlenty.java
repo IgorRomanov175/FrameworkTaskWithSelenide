@@ -16,9 +16,8 @@ public class HurtMePlenty extends BrowserSetUp {
     private final static String totalCost = "HurtMePlenty.test.data.totalCost";
 
     @Test
-    public void hurtMePlenty() throws InterruptedException {
+    public void hurtMePlenty(){
         openUrl(googleUrl);
-        Thread.sleep(15000);
         googleCloudHomePage()
                 .searchFieldInput(dataReader(search))
                 .clickSearchElement()
