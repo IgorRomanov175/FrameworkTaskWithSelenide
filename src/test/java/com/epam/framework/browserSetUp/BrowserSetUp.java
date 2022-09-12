@@ -13,6 +13,16 @@ import org.testng.annotations.Parameters;
 
 public class BrowserSetUp {
 
+    public final static String NUMBER_OF_INSTANCES = "Settings.test.data.numberOfInstances";
+    public final static String OPERATING_SYSTEM = "Settings.test.data.operatingSystem";
+    public final static String SERIES = "Settings.test.data.series";
+    public final static String MACHINE_TYPE = "Settings.test.data.machineType";
+    public final static String GPU_TYPE = "Settings.test.data.GPUType";
+    public final static String NUM_OF_GPU = "Settings.test.data.numOfGPU";
+    public final static String LOCAL_SSD = "Settings.test.data.localSSD";
+    public final static String DATACENTER_LOCATION = "Settings.test.data.datacenterLocation";
+    public final static String COMMITMENT_LOCATION = "Settings.test.data.commitmentLocation";
+
     public final static String googleUrl = "https://cloud.google.com/";
 
     @Parameters({"browser"})
