@@ -2,4 +2,5 @@ com\epam\framework\pages\GoogleCloudsPages\GoogleCloudSearchPage.class
 com\epam\framework\driver\DriverSingleton.class
 com\epam\framework\pages\YopmailPage\YopmailPage.class
 com\epam\framework\pages\GoogleCloudsPages\GoogleCloudCalculatorPage.class
+com\epam\framework\pages\toolsForPages\Tools.class
 com\epam\framework\pages\GoogleCloudsPages\GoogleCloudHomePage.class

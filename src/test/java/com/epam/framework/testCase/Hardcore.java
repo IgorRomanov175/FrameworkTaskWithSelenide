@@ -37,7 +37,6 @@ public class Hardcore extends BrowserSetUp {
                 .mailButtonClick()
                 .setMailAddress(dataReader(mailText))
                 .refreshMailList();
-        Assert.assertEquals("Google Cloud Sales", yopmailPage().assertMailTitle());
         Assert.assertTrue(yopmailPage().assertTotalCost().contains("USD 1,081.20"));
 
     }

@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.framework.testCase.Hardcore
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 94.292 s - in com.epam.framework.testCase.Hardcore
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.794 s <<< FAILURE! - in com.epam.framework.testCase.Hardcore
+hardcore(com.epam.framework.testCase.Hardcore)  Time elapsed: 40.423 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //span[text()='Google Cloud Sales']}
+Expected: exist
+Screenshot: file:/C:/Users/verbi/IdeaLessons/Framework/FrameworkWithSelenide/build/reports/tests/1667635857465.0.png
+Page source: file:/C:/Users/verbi/IdeaLessons/Framework/FrameworkWithSelenide/build/reports/tests/1667635857465.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Google Cloud Sales']"}
+	at com.epam.framework.testCase.Hardcore.hardcore(Hardcore.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Google Cloud Sales']"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-6F1KN2E', ip: '192.168.88.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdcd6799cd5833650db7c7c6fcb20080, findElement {using=xpath, value=//span[text()='Google Cloud Sales']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\verbi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50917/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cdcd6799cd5833650db7c7c6fcb20080
+	at com.epam.framework.testCase.Hardcore.hardcore(Hardcore.java:40)
+
